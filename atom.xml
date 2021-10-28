@@ -6,7 +6,7 @@
   <link href="https://ibingbo.github.io/atom.xml" rel="self"/>
   
   <link href="https://ibingbo.github.io/"/>
-  <updated>2021-10-28T06:54:42.544Z</updated>
+  <updated>2021-10-28T13:02:47.481Z</updated>
   <id>https://ibingbo.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>second blog</title>
+    <link href="https://ibingbo.github.io/2021/10/28/second-blog/"/>
+    <id>https://ibingbo.github.io/2021/10/28/second-blog/</id>
+    <published>2021-10-28T13:02:47.000Z</published>
+    <updated>2021-10-28T13:02:47.481Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>my first blog</title>
