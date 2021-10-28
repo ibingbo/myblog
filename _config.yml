@@ -8,7 +8,7 @@ subtitle: ibingbo's blog
 description: this is my blog
 keywords:
 author: ibingbo zh
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -63,12 +63,15 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 12
   order_by: -date
 
 # Category & Tag
 default_category: uncategorized
 category_map:
+  编程: programming
+  生活: lite
+  阅读: reading
 tag_map:
 
 # Metadata elements
@@ -98,7 +101,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: bootstrap-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -106,3 +109,34 @@ deploy:
   type: 'git'
   repo: git@github.com:ibingbo/myblog.git
   branch: gh-pages
+
+
+# Header
+navbar_brand: false
+menu:
+  Home: index.html
+  Archives: archives/
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+widgets:
+- about         # See also: `about_content`
+- category
+- tag
+- tagcloud
+- archives
+- recent_posts
+about_widget_content: >
+  <p>Etiam porta <em>sem malesuada magna</em> mollis euismod.
+  Cras mattis consectetur purus sit amet fermentum. Aenean
+  lacinia bibendum nulla sed consectetur.</p>
+
+# Miscellaneous
+google_analytics:
+favicon:
+twitter:
+google_plus:
