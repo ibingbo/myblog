@@ -1,4 +1,6 @@
 ---
 title: tags
-date: 2021-10-28 16:30:05
+type: tags
+layout: "tags"
+date: 2021-10-28 20:40:52
 ---

@@ -1,4 +1,6 @@
 ---
 title: categories
-date: 2021-10-28 16:29:30
+type: categories
+layout: "categories"
+date: 2021-10-28 20:41:05
 ---
