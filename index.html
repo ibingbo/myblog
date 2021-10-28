@@ -106,19 +106,11 @@
   
   
   
-
 <div class="notice" style="margin-top:50px">
     <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
+    <div class="notice-content">一个安静优雅的hexo主题，快速且响应式。</div>
 </div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
+
 
 <style>
     .notice {
@@ -333,14 +325,6 @@
     
     <li class="nav-item">
       <a class="nav-item-link" href="/myblog/archives">归档</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/myblog/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/myblog/tags">标签</a>
     </li>
     
     <li class="nav-item">
